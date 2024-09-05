@@ -57,6 +57,7 @@ THE SOFTWARE.
 #endif
 
 
+#define MPU6050_DEVICE_ID           0x0C // device id may change per chip
 #define MPU6050_ADDRESS_AD0_LOW     0x68 // address pin low (GND), default for InvenSense evaluation board
 #define MPU6050_ADDRESS_AD0_HIGH    0x69 // address pin high (VCC)
 #define MPU6050_DEFAULT_ADDRESS     MPU6050_ADDRESS_AD0_LOW
